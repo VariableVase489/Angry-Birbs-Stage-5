@@ -4,7 +4,7 @@ class YeeYee{
             bodyA:body1,
             pointB:point2,
             length:10,
-            stiffness:0.00000000000000000000000000000000000000000000001
+            stiffness:0.05
         }
         this.chain = Constraint.create(options);
         World.add(world,this.chain);
